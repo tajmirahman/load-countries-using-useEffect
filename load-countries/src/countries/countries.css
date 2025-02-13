@@ -3,4 +3,16 @@
     padding: 10px;
     margin: 10px;
     border-radius: 15px;
+    
+}
+
+.country-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.country-flag{
+    height: 180px;
+    width: 280px;
 }
